@@ -1,17 +1,141 @@
+
+
 body
 {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
+    font-family: "Roboto";
+    align-items: stretch;
+
 }
 
-header
+/* header style */
+.header
 {
     display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 1400px;
+    padding: 24px;
 }
 
 ul
 {
     display: flex;
     list-style: none;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.headerlogo
+{
+    font-weight: bold;
+}
+
+/* container around the header and website info */
+.container1
+{
+    background-color: #1F2937;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 24px;
+}
+
+/* website info and image container*/
+.container2
+{
+
+    display: flex;
+    background-color: #1F2937;
+    padding: 24px;
+    justify-content: space-between;
+    min-width: 1400px;
+
+}
+
+.websiteinfo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    width: 400px;
+    flex: 1 0 auto;
+    gap: 16px;
+}
+/* information about website */
+.information 
+{
+    color: #dfdfdf;
+}
+
+.SignUpbutton
+{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 16px;
+    margin-right: auto;
+}
+
+.websitename
+{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+
+}
+
+/* facts container content */
+
+.factssection
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 300px;
+    align-items: center;
+    min-width: 1400px;
+
+}
+.cardcontainer
+{
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.factheader
+{
+     font-size: 36px;
+     color: #1F2937;
+     font-weight: 900;
+}
+
+.cardimg
+{
+    width: 150px;
+    height: 150px;
+    border:5px solid #3882F6;
+    border-radius: 16px;
+
+}
+.card
+{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 300px;
+    align-items: center;
+}
+p
+{
+    text-align: center;
+    color: #1F2937;
 }

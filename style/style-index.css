@@ -1,12 +1,15 @@
 
 
-body
+.body
 {
     display: flex;
-    align-items: center;
+
     flex-direction: column;
     font-family: "Roboto";
     align-items: stretch;
+    margin: 0;
+ 
+
 
 }
 
@@ -45,6 +48,7 @@ ul
     flex-direction: column;
     align-items: stretch;
     padding-bottom: 24px;
+    flex: 0 0 100%;
 }
 
 /* website info and image container*/
@@ -56,6 +60,7 @@ ul
     padding: 24px;
     justify-content: space-between;
     min-width: 1400px;
+    flex: 1 0 auto;
 
 }
 
@@ -63,10 +68,11 @@ ul
 {
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
+    align-items: flex-start;
     width: 400px;
     flex: 1 0 auto;
     gap: 16px;
+
 }
 /* information about website */
 .information 
@@ -82,7 +88,6 @@ ul
     background-color: #3882F6;
     padding: 8px 24px;
     border-radius: 16px;
-    margin-right: auto;
 }
 
 .websitename
@@ -138,4 +143,89 @@ p
 {
     text-align: center;
     color: #1F2937;
+}
+
+/* quote section */
+
+.quotecontainer
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    max-width: 500px;
+    padding: 24px;
+}
+
+.quote
+{
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 36px;
+    color: #1F2937;
+    align-self: center;
+
+}
+.quotename
+{
+    align-self: end;
+    font-weight: bold;
+    font-size: 24px;
+}
+.quotebackground
+{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    flex: 0 0 100%;
+}
+
+/* signup seciotn */
+
+.signupbackground
+{
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.signupcontainer
+{
+    background-color: #3882F6;
+    border-radius: 16px;
+    padding: 24px 100px;
+    display: flex;
+    min-width: 1000px;
+}
+
+.calltoaction
+{
+    font-size: 24px;
+    font-weight: bold;
+    color:#f9faf8;
+}
+.signupinfo
+{
+    font-size: 18px;
+    color: #f9faf8;
+}
+.signupleft
+{
+    margin-right: auto;
+}
+
+/* footer */
+
+.footer
+{
+    text-align: center;
+    color: #f9faf8;
+
+    background-color: #1F2937;
+    padding: 16px;
+    flex: 1;
+
+   
 }
